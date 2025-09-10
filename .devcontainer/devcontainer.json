@@ -1,0 +1,9 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {},
+    "customizations": {
+        "vscode": {},
+        "extensions": []
+    },
+    "postCreateCommand": ". ./.devcontainer/post-create.sh | tee /tmp/post-create-log.txt"
+}
